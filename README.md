@@ -39,6 +39,6 @@ This project involves:
 
 1. **Bronze Layer**: We need to load/ingest the system in our sytem before we start working on it. We can write a script for it or can directly ingest the data with the help of built-in functions available in all the modern databases now. Instead of writing codes to create the tables manually and ingest the data in it manually, I've directly ingested the data with the built-in functions available in **OracleSQL**.
 
-2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis - the script for which is available in this repository.
+2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis - the script for which is available in this repository. [! https://github.com/arya-analyst/SQL_data_warehouse_project/blob/main/datascript.sql]
 
 3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics. You can ask questions and work on the cleaned dataset to add another layer to this project and finally load the data in a BI tool to prepare a business-ready dashboard and KPI cards.
